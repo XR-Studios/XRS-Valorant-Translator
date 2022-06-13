@@ -1,0 +1,16 @@
+{
+  "name": "xrs-valorant-translator",
+  "version": "1.0.0",
+  "description": "Middleware between Riot Valorant API and SP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "author": "Ryan Dwyer",
+  "license": "ISC",
+  "dependencies": {
+    "async-mutex": "^0.3.2",
+    "axios": "^0.27.2"
+  }
+}
